@@ -19,6 +19,9 @@
   border-radius: 100px;
   background-color: #428BCA
 }
+.why .puntini {
+  display: none;
+}
 .margin_h1 {
   margin: 50px 0;
   padding: 10px;
@@ -31,10 +34,78 @@
   .col-md-8 {
     padding: 0 10px;
   }
+  .container {
+    font-size: 18px;
+    margin: 0 10px;
+  }
+  .container p {
+    margin-bottom: 25px;
+  }
+  .container h1,
+  .container h2 {
+    color: #222425
+  }
+  .lezioni {
+    background-color: #5aa8cc
+  }
+  .steps,
+  .why {
+    background-color:#0a26b3
+  }
+  .steps img,
+  .why img {
+    height: 200px;
+  }
+  .third {
+    margin-top: 20px;
+  }
 
 }
 @media screen and (max-width: 768px) {
-  .lezioni p {
+  body,
+  .lezioni,
+  .steps,
+  .why {
+    background-color: #5aa8cc
+  }
+  .container {
+    font-size: 20px;
+    margin: 0 5px;
+  }
+  .container p {
     margin-bottom: 30px;
+  }
+  .lezioni img,
+  .why img {
+    height: 200px;
+  }
+  .steps .container {
+    text-align: left;
+  }
+  .steps .container h1 {
+    text-align: center;
+  }
+  .steps h2 {
+    display: inline-block;
+    text-decoration: underline;
+    color: #fff;
+  }
+  .steps p {
+    display: none;
+  }
+  .steps img {
+    vertical-align: middle;
+    margin-bottom: 40px;
+  }
+  .why p {
+    display: none;
+  }
+  .why .puntini {
+    display: inline-block;
+    height: 25px;
+    margin-bottom: 20px;
+  }
+  .puntini:hover {
+    background-color: #fff;
   }
 }
